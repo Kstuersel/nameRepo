@@ -11,5 +11,5 @@ int main()
 
 void printName()
 {
-    cout << "Kyle Stuersel" << endl;
+    cout << "Kyle James Stuersel" << endl;
 }
