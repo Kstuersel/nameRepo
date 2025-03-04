@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-void printName();
+void printName(int age);
 
 int main()
 {
-    printName();
+    printName(22);
     return 0;
 }
 
-void printName()
+void printName(int age)
 {
-    cout << "Kyle Stuersel" << endl;
+    cout << "Kyle Stuersel " << "(" << age << ")" << endl;
 }
